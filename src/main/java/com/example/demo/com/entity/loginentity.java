@@ -19,7 +19,7 @@ public class loginentity {
 	}
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "emp_id")
 	private int id;
 	public int getId() {
